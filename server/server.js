@@ -1,7 +1,7 @@
 const express = require('express');
-
+const { authMiddleware } = require('./utils/auth');
 // import Apollo Server
-const { ApolloServer } = require('apollo-server-express');
+const { ApolloServer, AuthenticationError } = require('apollo-server-express');
 
 // import typeDefs and resolvers
 const { typeDefs, resolvers } = require('./schemas');
@@ -15,7 +15,13 @@ const startServer = async () => {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
-    // context: authMiddleware
+    // context: ({ req }) => req.headers
+    // formatError(err) {
+    //   if (err.originalError instanceof AuthenticationError) {
+    //     return new Error(err);
+    //   }
+    // },
+    context: authMiddleware
   });
   // start apollo server
   await server.start();
