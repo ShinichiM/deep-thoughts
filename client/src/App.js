@@ -19,7 +19,6 @@ import Signup from './pages/Signup';
 const httpLink = createHttpLink({ 
   uri: '/graphql'
 });
-
 const authLink = setContext((_, { headers }) => {
   const token = localStorage.getItem('id_token');
   return {
@@ -30,6 +29,7 @@ const authLink = setContext((_, { headers }) => {
   }
 });
 
+console.log(authLink);
 const client = new ApolloClient({
   link: authLink.concat(httpLink),
   cache: new InMemoryCache()
