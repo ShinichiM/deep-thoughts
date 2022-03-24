@@ -6,6 +6,7 @@ import Auth from '../utils/auth';
 import { ADD_FRIEND } from '../utils/mutations';
 import ThoughtList from '../components/ThoughtList';
 import FriendList from '../components/FriendList';
+import ThoughtForm from '../components/ThoughtForm';
 
 const Profile = () => {
   const { username: userParam } = useParams();
@@ -63,6 +64,7 @@ const Profile = () => {
           <FriendList friendCount={user.friendCount} username={user.username} friends={user.friends}></FriendList>
         </div>
       </div>
+      <div className='mb-3'>{!userParam && <ThoughtForm />}</div>
     </div>
   );
 };
