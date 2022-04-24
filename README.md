@@ -50,6 +50,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#usage">Usage</a></li>
       </ul>
     </li>
     <li>
@@ -88,6 +89,15 @@ A Content Management System created to give users the ability to share their tho
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- USAGE EXAMPLES -->
+### Usage
+
+An application to share your thoughts! Use the platform as your go-to for sharing your life activities
+
+<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -107,15 +117,6 @@ A Content Management System created to give users the ability to share their tho
    ```js
    npm start
    ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-An application to share your thoughts! Use the platform as your go-to for sharing your life activities
-
-<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
