@@ -32,11 +32,11 @@
   <h3 align="center">Deep Thoughts</h3>
 
   <p align="center">
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://deep-thoughts-sm.herokuapp.com/">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/shinichiM/deep-thoughts/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/shinichiM/deep-thoughts/issues">Request Feature</a>
   </p>
 </div>
 
@@ -72,7 +72,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-A 
+A Content Management System created to give users the ability to share their thoughts! Users have the ability to post and comment on other user's thoughts. The idea of deep thoughts was to create a type of social media application to learn how to create basic user engagement. It was challenging at first, but enjoyed the process! Come create a user and post or comment a thought!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -80,12 +80,13 @@ A
 
 <!-- This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples. -->
 
-* [React.js](https://reactjs.org/)
 * [Node.js](https://nodjs.org/)
+* [Express.js](https://expressjs.com/)
+* [React.js](https://reactjs.org/)
+* [MongoDB](https://www.mongodb.com/)
+* [GraphQL](https://graphql.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -112,7 +113,7 @@ A
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This is a portfolio to showcase the projects I have worked on. Take a look! 
+An application to share your thoughts! Use the platform as your go-to for sharing your life activities
 
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
