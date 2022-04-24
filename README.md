@@ -97,7 +97,7 @@ A Content Management System created to give users the ability to share their tho
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/shinichiM/portfolio-react.git
+   git clone https://github.com/shinichiM/deep-thoughts.git
    ```
 2. Install NPM packages
    ```sh
