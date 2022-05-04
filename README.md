@@ -26,7 +26,7 @@
 <br />
 <div align="center">
   <a href="https://github/shinichiM/portfolio-react">
-    <img src="" alt="Logo" width="80" height="80">
+<img width="80" alt="image" src="https://user-images.githubusercontent.com/62361626/166833097-89356e0b-ab12-4a91-800c-27aee7069b2b.png">
   </a>
 
   <h3 align="center">Deep Thoughts</h3>
@@ -71,9 +71,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<p align="center">
+  <img width="75%" alt="image" src="https://user-images.githubusercontent.com/62361626/166838333-121d67fd-fc2b-4298-97f6-5b1200ef978a.png">
+</p>
 
-A Content Management System created to give users the ability to share their thoughts! Users have the ability to post and comment on other user's thoughts. The idea of deep thoughts was to create a type of social media application to learn how to create basic user engagement. It was challenging at first, but enjoyed the process! Come create a user and post or comment a thought!
+
+A Content Management System created to give users the ability to post their thoughts or comment on others! The idea of deep thoughts was to create a social media application that gives users a platform to share thought provoking ideas. Developing an application based on user engagement had its challenges. The most challenging aspect was implementing user authentication using Json Web Tokens and figuring out how to store token data (stored in LocalStorage, UH OH!) It was challenging at first, but enjoyed the process! 
+
+React was the main frontend framework used for developing this application to understand its SPA functionality with dynamic page rendering. It was also easier to develop readable HTML (or JSX) files. Since we wanted to create a custom application I thought MongoDB and GraphQL would be the best path forward for the customizable queries and data models/schemas. Overall it was a fun exercise to learn user focused applications!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
