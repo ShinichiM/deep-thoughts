@@ -140,7 +140,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Shinichi Miyakawa - [@Shinicho](https://twitter.com/shinicho) - miyakawashi@gmail.com
 
-Project Link: [https://github.com/shinichiM/portfolio-react](https://deep-thoughts-sm.herokuapp.com/)
+Project Link: [https://deep-thoughts-sm.herokuapp.com/](https://deep-thoughts-sm.herokuapp.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
