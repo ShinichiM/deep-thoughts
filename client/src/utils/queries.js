@@ -8,12 +8,6 @@ export const QUERY_THOUGHTS = gql`
             createdAt
             username
             reactionCount
-            reactions {
-                _id
-                createdAt
-                username
-                reactionBody
-            }
         }
     }
 `;
@@ -69,12 +63,6 @@ export const QUERY_ME = gql`
         thoughtText
         createdAt
         reactionCount
-        reactions {
-          _id
-          createdAt
-          reactionBody
-          username
-        }
       }
       friends {
         _id
@@ -91,6 +79,9 @@ export const QUERY_ME_BASIC = gql`
       username
       email
       friendCount
+      thoughts {
+        _id
+      }
       friends {
         _id
         username

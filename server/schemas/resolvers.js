@@ -60,8 +60,9 @@ const resolvers = {
         },
         addThought: async (parent, args, context) => {
             if (context.user) {
+                console.log(args);
                 const thought = await Thought.create({ ...args, username: context.user.username});
-                
+               console.log(thought) ;
                 await User.findByIdAndUpdate(
                     { _id: context.user._id },
                     { $push: { thoughts: thought._id }},
